@@ -10,7 +10,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from vip.fits import open_fits as open_fits_vip
-from vip.fits import vipDS9, write_fits
+# from vip.fits import vipDS9, write_fits
+from vip.fits import write_fits
 from vip.conf import time_ini, timing
 from vip.preproc import frame_shift
 from vip.preproc import cube_crop_frames
